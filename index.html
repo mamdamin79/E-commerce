@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper css -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- costum css -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- icon CDN css -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> 
+    <title>Ecommerce</title>
+</head>
+<body>
+    <!-- top scroll button -->
+    <div class="top-scroll">
+        <a href="#Home">
+            <i class="uil uil-angle-up"></i>
+        </a>
+    </div>
+    <!-- header section start -->
+    <header>
+        <a href="#Home" class="logo"><i class="uil uil-shop"></i> clothing</a>
+        <nav>
+            <ul id="side-menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Products">products</a></li>
+                <li><a href="#Categories">categories</a></li>
+                <li><a href="#Reviews">reviews</a></li>
+                <li><a href="#Blogs">blogs</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <button class="menu-icon"><i class="uil uil-bars"></i></button>
+            <button class="search-icon"><i class="uil uil-search-alt"></i></button>
+            <button class="shopping-cart-icon"><i class="uil uil-shopping-cart-alt"></i></button>
+            <button class="user-icon"><i class="uil uil-user-circle"></i></button>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search..." autocomplete="offsearch here...">
+            <label for="search-box"><i class="uil uil-search"></i></label>
+        </form>
+        
+        <div class="shopping-cart">
+            <!-- we generate this items in js dynamically -->
+
+            <!-- <div class="item">
+                <img src="/image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+                <i class="uil uil-trash-alt"></i>
+             </div> -->
+            
+            <!-- <div class="total">total : $19.69</div> -->
+            <p>there is no product in cart</p>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="emil" placeholder="your email">
+            <input type="password" placeholder="your password">
+            <p>forget your password <a href="">click here</a></p>
+            <p>don't have an account <a href="">create now</a></p> </p>
+            <button>login now!</button>
+        </form>
+    </header>
+    <!-- header section end -->
+    <!-- home section start -->
+    <section class="home" id="Home">
+        <div class="content">
+            <h2>fresh and <span>organic</span> products</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda temporibus officia unde minus veniam?</p>
+            <button>shop now</button>
+        </div>
+    </section>
+    <!-- home section end -->
+    <!-- feature section start -->
+    <section class="feature" id="Features">
+        <h1>our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/save-time.png" alt="save time" />
+                <h3>fresh and organic</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button>read more</button>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-2.png" alt="free delivery">
+                <h3>free delivery</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button>read more</button>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-3.png" alt="easy payment">
+                <h3>easy payment</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button>read more</button>
+            </div>
+        </div>
+    </section>
+    <!-- feature section end -->
+    <!-- product section start -->
+    <section class="product" id="Products">
+        <h1>our <span>product</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper first-row">
+
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- product section end -->
+    <!-- categories section start -->
+    <section class="categories" id="Categories">
+        <h1>product <span>categories</span> </h1>
+        <div  class="box-container">
+            <div class="box">
+                <img src="/image/conifer-business-body.png" alt="men's clothing category">
+                <h3>men's clothing</h3>
+                <p>upto 45% off</p>
+                <button>shop now</button>
+            </div>
+            <div class="box">
+                <img src="/image/3d-flame-laptop-to-the-right.png" alt="electronics category">
+                <h3>electronics</h3>
+                <p>upto 45% off</p>
+                <button>shop now</button>
+            </div>
+            <div class="box">
+                <img src="/image/cherry-595.png" alt="women's clothing category">
+                <h3>women's clothing</h3>
+                <p>upto 45% off</p>
+                <button>shop now</button>
+            </div>
+            <div class="box">
+                <img src="/image/pablo-941.png" alt="jewellery category">
+                <h3>jewellery</h3>
+                <p>upto 45% off</p>
+                <button>shop now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- categories section end -->
+    <!-- reviews section start -->
+    <section class="reviews" id="Reviews">
+        <h1>customers <span>reviews</span> </h1>
+        <div class="reviews-slider">
+            <div class="box-container">
+                <div class="box">
+                    <img src="./image/pic-1.png" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, maiores.</p>
+                    <h3>mickel scafield</h3>
+                    <div class="stars">
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./image/pic-2.png" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, maiores.</p>
+                    <h3>tokyo</h3>
+                    <div class="stars">
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./image/pic-3.png" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, maiores.</p>
+                    <h3>tomy shelby</h3>
+                    <div class="stars">
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./image/pic-4.png" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, maiores.</p>
+                    <h3>amber herd</h3>
+                    <div class="stars">
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                        <i class="uil uil-favorite"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- reviews section end -->
+    <!-- blogs section start -->
+    <section class="blogs" id="Blogs">
+        <h1>our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/pablita-shopping.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href=""><i class="uil uil-calendar-alt"></i>1st may,2021</a>
+                        <a href=""><i class="uil uil-user-square"></i>by user</a>
+                    </div>
+                    <h3>fresh and organic fruites</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/burgundy-88.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href=""><i class="uil uil-calendar-alt"></i>1st may,2021</a>
+                        <a href=""><i class="uil uil-user-square"></i>by user</a>
+                    </div>
+                    <h3>fresh and organic fruites</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/clothing-blogs3.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href=""><i class="uil uil-calendar-alt"></i>1st may,2021</a>
+                        <a href=""><i class="uil uil-user-square"></i>by user</a>
+                    </div>
+                    <h3>fresh and organic fruites</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- blogs section end -->
+     <!-- footer section start -->
+     <section class="footer">
+         <div class="box-container">
+            <div class="box">
+                <h3>groco <i class="uil uil-shop"></i> </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="share">
+                    <i class="uil uil-facebook"></i>
+                    <i class="uil uil-instagram-alt"></i>
+                    <i class="uil uil-linkedin"></i>
+                    <i class="uil uil-telegram"></i>
+                </div>
+            </div>
+            <div class="box">
+                <h3>contact information</h3>
+                <a href=""><i class="uil uil-phone"></i>0214489567</a>
+                <a href=""><i class="uil uil-mobile-android"></i> +989124502036</a>
+                <a href=""><i class="uil uil-envelope-alt"></i> test@gmail.com</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <div class="links">
+                    <a href=""><i class="uil uil-arrow-right"></i>home</a>
+                    <a href=""><i class="uil uil-arrow-right"></i>features</a>
+                    <a href=""><i class="uil uil-arrow-right"></i>categories</a>
+                    <a href=""><i class="uil uil-arrow-right"></i>products</a>
+                    <a href=""><i class="uil uil-arrow-right"></i>reviews</a>
+                    <a href=""><i class="uil uil-arrow-right"></i>blogs</a>
+                </div>
+            </div>
+            <div class="box">
+               <h3>newsletter</h3>
+               <p>subscribe for last updates</p>
+               <form action="">
+                   <input type="email" name="" id="">
+                   <button type="submit">subscribe</button>
+               </form>
+            </div>
+         </div>
+     </section>
+     <!-- footer section end -->
+
+    
+    <script src="/scripts/script.js" type="module"></script>
+</body>
+</html>
