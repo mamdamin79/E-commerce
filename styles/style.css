@@ -56,6 +56,10 @@ body {
     cursor: pointer;
     overflow: hidden;
 }
+.top-scroll:hover{
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnim 2s ease 0s 1 normal forwards;
+}
 .top-scroll a{
     color:#fff;
     width:100%;
@@ -851,6 +855,13 @@ header .search-form label:hover{
     text-align: center;
     
 }
+.footer .links a:hover {
+    transform: translateX(+8px);
+    -webkit-transform: translateX(+8px);
+    -moz-transform: translateX(+8px);
+    -ms-transform: translateX(+8px);
+    -o-transform: translateX(+8px);
+}
 .footer .box button:hover {
     background-color:var(--orange);
     color: #fff;
@@ -895,6 +906,9 @@ header .search-form label:hover{
     }
     .footer .box-container{
         gap: 1rem;
+    }
+    .shopping-cart{
+        width:38rem;
     }
  }
 
